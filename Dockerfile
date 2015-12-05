@@ -1,4 +1,4 @@
-FROM daocloud.io/asiainfo_dev/ci-go:master-init
+FROM daocloud/ci-golang:1.4
 
 RUN apt-get update && apt-get upgrade -q -y
 RUN apt-get install -q -y \
