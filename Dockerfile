@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM daocloud.io/asiainfo_dev/ci-go:master-init
 
 RUN apt-get update && apt-get upgrade -q -y
 RUN apt-get install -q -y \
